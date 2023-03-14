@@ -15,7 +15,7 @@ pipeline {
         
         stage('Git Pull') {
             steps {
-                git url: 'https://github.com/PrafullPandey06/Calculator_Using_DevOps.git'
+                git branch: 'main', url: 'https://github.com/PrafullPandey06/Calculator_Using_DevOps.git'
        
             }
         }
