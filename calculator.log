@@ -30,3 +30,5 @@
 2023-03-14 01:08:50.647 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 11.0
 2023-03-14 01:08:50.648 [main] INFO  calculator.Calculator - [SQ ROOT] - 14641.0
 2023-03-14 01:08:50.649 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 121.0
+2023-03-14 12:58:05.504 [main] INFO  calculator.Calculator - [FACTORIAL] - 3
+2023-03-14 12:58:05.511 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 6
