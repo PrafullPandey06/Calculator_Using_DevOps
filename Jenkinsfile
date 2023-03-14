@@ -3,6 +3,7 @@ pipeline {
     environment {
         DOCKERHUB_REGISTRY = "prafull006/calculator-devops"
         DOCKERHUB_CREDENTIALS = credentials('Prafullsatna*')
+        img = ""
     }
     
     // The "agent" section configures on which nodes the pipeline can be 
@@ -27,25 +28,30 @@ pipeline {
         
         stage('Build Docker Image') {
 			steps {
-				sh "docker build -t $DOCKERHUB_REGISTRY:latest ."
-			}
+			     script {
+			        img = "docker build -t $DOCKERHUB_REGISTRY:latest ."
+			     }
+		      }
 		}
 
 		stage('Login to Docker Hub') {
 			steps {
-				sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
+				//sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
+				script{
+				docker.withRegistry('',dockerHub){img.push()}
+				}
 			}
 		}
 
-		stage('Push Docker Image to Docker Hub') {
-			steps {
-				sh 'docker push $DOCKERHUB_REGISTRY:latest'
-			}
-		}
+		//stage('Push Docker Image to Docker Hub') {
+		//	steps {
+		//		sh 'docker push $DOCKERHUB_REGISTRY:latest'
+		//	}
+		//}
         
-        stage('Removing Docker Image from Local') {
+        stage('Ansile pull') {
             steps {
-                sh "docker rmi $DOCKERHUB_REGISTRY:latest"
+                ansiblePlaybook becomeUser: 'null', colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'playbook.yml', sudoUser: 'null'
             }
         }
     }
