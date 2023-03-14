@@ -3,7 +3,7 @@
   hosts: all
   tasks:
 
-    - name: Start docker service
+    - name: Start docker servicee
       service:
         name: docker
         state: started
