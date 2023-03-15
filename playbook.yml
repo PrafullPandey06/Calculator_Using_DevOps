@@ -1,6 +1,8 @@
 ---
 - name: Pull docker image of Calculator
   hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
 
     - name: Start docker servicee
