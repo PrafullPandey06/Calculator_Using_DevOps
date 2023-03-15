@@ -1,1 +1,4 @@
 localhost ansible_usr=prafull
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
