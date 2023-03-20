@@ -14,10 +14,10 @@
       shell: docker pull prafull006/calculator-devops:latest
       
     - name: Stop running container calculator-DevOps
-      shell: docker stop calculator-DevOps || true
+      shell: docker stop calculator-DevOps 
       
     - name: Remove Calculator-DevOps container
-      shell: docker rm calculator-DevOps || true
+      shell: docker rm calculator-DevOps 
       
     - name: running new container
       shell: docker run --name calculator-DevOps -d -t prafull006/calculator-devops:latest target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
