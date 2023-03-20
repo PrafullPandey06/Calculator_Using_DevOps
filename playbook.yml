@@ -11,13 +11,13 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull prafull006/calculator-devops:latest
+      shell: docker pull prafull006/calculator:latest
       
-    - name: Stop running container calculator-DevOps
-      shell: docker stop calculator-DevOps 
+    - name: Stop running container calculator
+      shell: docker stop calculator 
       
-    - name: Remove Calculator-DevOps container
-      shell: docker rm calculator-DevOps 
+    - name: Remove Calculator container
+      shell: docker rm calculator 
       
     - name: running new container
-      shell: docker run --name calculator-DevOps -d -t prafull006/calculator-devops:latest java -jar target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
+      shell: docker run --name calculator -d -t prafull006/calculator-devops:latest java -jar target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
