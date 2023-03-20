@@ -20,4 +20,4 @@
       shell: docker rm calculator-DevOps 
       
     - name: running new container
-      shell: docker run --name calculator-DevOps -d -t prafull006/calculator-devops:latest target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
+      shell: docker run --name calculator-DevOps -d -t prafull006/calculator-devops:latest 
