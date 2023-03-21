@@ -12,6 +12,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
+        Thread.sleep(1);
         Calculator calculator = new Calculator();
         Scanner scanner = new Scanner(System.in);
         double d_number1, d_number2;
