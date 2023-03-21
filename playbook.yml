@@ -19,4 +19,4 @@
       shell: docker rm calculator 
       
     - name: running new container
-      shell: docker run --name calculator -d -t prafull006/calculator:latest java -jar target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar
+      shell: docker run --name calculator -d -t prafull006/calculator:latest 
