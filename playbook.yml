@@ -19,4 +19,5 @@
       shell: docker rm calculator 
       
     - name: running new container
-      shell: docker run --name calculator -itd prafull006/calculator:latest
+      shell: docker run --name calculator -itd prafull006/calculator:latest&&gnome-terminal -- bash -c "docker attach calculator; exec bash"
+
