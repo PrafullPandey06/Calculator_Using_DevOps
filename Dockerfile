@@ -1,5 +1,5 @@
 FROM khipu/openjdk17-alpine
-COPY . .
+COPY ./target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar .
 WORKDIR ./
-CMD ["java","-jar", "target/calculator-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+CMD ["java","-jar", "calculator-1.0-SNAPSHOT-jar-with-dependencies.jar"]
 
