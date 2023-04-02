@@ -1,15 +1,24 @@
----
+
+
 - name: Pull docker image of Calculator
   hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
 
-    - name: Start docker service
+    - name: Start docker servicee
       service:
         name: docker
         state: started
         
     - name: pull docker image
-      shell: docker pull prafull006/calculator-devops
+      shell: docker pull prafull006/calculator:latest
       
-    - name: running container
-      shell: docker run -it -d prafull006/calculator-devops
+    - name: Stop running container calculator
+      shell: docker stop calculator 
+      
+    - name: Remove Calculator container
+      shell: docker rm calculator 
+      
+    - name: running new container
+      shell: docker run --name calculator -itd prafull006/calculator:latest&&gnome-terminal -- bash -c "docker attach calculator; exec bash"
