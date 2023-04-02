@@ -1,1 +1,2 @@
-localhost ansible_usr=prafull
+172.16.139.76 ansible_ssh_user=prafull ansible_sudo_pass=Prafullsatna* 
+

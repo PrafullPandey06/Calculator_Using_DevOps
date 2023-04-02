@@ -1,34 +1,40 @@
-2023-03-14 01:08:50.611 [main] INFO  calculator.Calculator - [SQ ROOT] - 3.0
-2023-03-14 01:08:50.617 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 1.7320508075688772
-2023-03-14 01:08:50.618 [main] INFO  calculator.Calculator - [SQ ROOT] - 4.0
-2023-03-14 01:08:50.619 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 2.0
-2023-03-14 01:08:50.621 [main] INFO  calculator.Calculator - [NATURAL LOG] - 1.0
-2023-03-14 01:08:50.622 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.0
-2023-03-14 01:08:50.623 [main] INFO  calculator.Calculator - [NATURAL LOG] - 300.0
-2023-03-14 01:08:50.624 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 5.703782474656201
-2023-03-14 01:08:50.627 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.4
-2023-03-14 01:08:50.628 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.8754687373538999
-2023-03-14 01:08:50.629 [main] INFO  calculator.Calculator - [NATURAL LOG] - 2.1
-2023-03-14 01:08:50.630 [main] INFO  calculator.Calculator - [RESULT - NATURAL LOG] - 0.7419373447293773
-2023-03-14 01:08:50.633 [main] INFO  calculator.Calculator - [FACTORIAL] - 3
-2023-03-14 01:08:50.633 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 6
-2023-03-14 01:08:50.634 [main] INFO  calculator.Calculator - [FACTORIAL] - 6
-2023-03-14 01:08:50.634 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 720
-2023-03-14 01:08:50.635 [main] INFO  calculator.Calculator - [FACTORIAL] - 5
-2023-03-14 01:08:50.636 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 120
-2023-03-14 01:08:50.636 [main] INFO  calculator.Calculator - [FACTORIAL] - 10
-2023-03-14 01:08:50.637 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 3628800
-2023-03-14 01:08:50.639 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 5.0
-2023-03-14 01:08:50.639 [main] INFO  calculator.Calculator - [RESULT - POWER] - 32.0
-2023-03-14 01:08:50.640 [main] INFO  calculator.Calculator - [POWER - 9.0 RAISED TO] 2.0
-2023-03-14 01:08:50.641 [main] INFO  calculator.Calculator - [RESULT - POWER] - 81.0
-2023-03-14 01:08:50.642 [main] INFO  calculator.Calculator - [POWER - 2.0 RAISED TO] 2.0
-2023-03-14 01:08:50.643 [main] INFO  calculator.Calculator - [RESULT - POWER] - 4.0
-2023-03-14 01:08:50.643 [main] INFO  calculator.Calculator - [POWER - -2.0 RAISED TO] 20.0
-2023-03-14 01:08:50.644 [main] INFO  calculator.Calculator - [RESULT - POWER] - 1048576.0
-2023-03-14 01:08:50.646 [main] INFO  calculator.Calculator - [SQ ROOT] - 121.0
-2023-03-14 01:08:50.647 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 11.0
-2023-03-14 01:08:50.648 [main] INFO  calculator.Calculator - [SQ ROOT] - 14641.0
-2023-03-14 01:08:50.649 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 121.0
-2023-03-14 12:58:05.504 [main] INFO  calculator.Calculator - [FACTORIAL] - 3
-2023-03-14 12:58:05.511 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 6
+20/Mar/2023:23:22:10 344 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+20/Mar/2023:23:22:29 701 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+20/Mar/2023:23:23:29 660 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+20/Mar/2023:23:23:36 302 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+2023-03-21 09:06:29.624 [main] INFO  calculator.Calculator - [FACTORIAL] - 5
+2023-03-21 09:06:29.630 [main] INFO  calculator.Calculator - [RESULT - FACTORIAL] - 120
+2023-03-21 09:06:37.082 [main] INFO  calculator.Calculator - [SQ ROOT] - 5.0
+2023-03-21 09:06:37.083 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - 2.23606797749979
+2023-03-21 09:06:48.329 [main] INFO  calculator.Calculator - [POWER - 3.0 RAISED TO] 5.0
+2023-03-21 09:06:48.329 [main] INFO  calculator.Calculator - [RESULT - POWER] - 243.0
+21/Mar/2023:14:55:51 219 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:14:55:51 226 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:14:55:51 228 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:14:55:51 228 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:14:55:51 229 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:14:55:51 230 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:14:55:51 231 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:14:55:51 232 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:14:55:51 233 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:14:55:51 234 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:14:55:51 235 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:14:55:51 236 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:14:55:51 238 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:14:55:51 239 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:14:55:51 240 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:14:55:51 240 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:20:03:49 404 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:04 242 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:15 669 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:23 151 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:32 544 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:37 226 [Calculator.java] [INFO] calculator.Calculator - Factorial calculation
+21/Mar/2023:20:04:51 177 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:20:05:04 886 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:20:05:19 845 [Calculator.java] [INFO] calculator.Calculator - SquareRoot calculation
+21/Mar/2023:20:05:34 384 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:20:05:43 071 [Calculator.java] [INFO] calculator.Calculator - Power calculation
+21/Mar/2023:20:06:02 901 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:20:06:09 168 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
+21/Mar/2023:20:06:16 616 [Calculator.java] [INFO] calculator.Calculator - NaturalLog calculation
