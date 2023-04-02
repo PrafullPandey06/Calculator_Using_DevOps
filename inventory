@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 172.16.139.76 ansible_ssh_user=prafull ansible_sudo_pass=Prafullsatna* 
+
+=======
+172.16.139.76 ansible_ssh_user=prafull ansible_sudo_pass=Prafullsatna* 
+>>>>>>> 9e2426887b3e11a3d666595900a9a005a0a26cab

@@ -1,3 +1,4 @@
+
 - name: Pull docker image of Calculator
   hosts: all
   vars:
@@ -11,6 +12,7 @@
         
     - name: pull docker image
       shell: docker pull prafull006/calculator:latest
+
       
     - name: Stop running container calculator
       shell: docker stop calculator 
