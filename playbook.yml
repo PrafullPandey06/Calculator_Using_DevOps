@@ -1,5 +1,4 @@
 
-
 - name: Pull docker image of Calculator
   hosts: all
   vars:
@@ -13,6 +12,7 @@
         
     - name: pull docker image
       shell: docker pull prafull006/calculator:latest
+
       
     - name: Stop running container calculator
       shell: docker stop calculator 
@@ -22,3 +22,4 @@
       
     - name: running new container
       shell: docker run --name calculator -itd prafull006/calculator:latest&&gnome-terminal -- bash -c "docker attach calculator; exec bash"
+
